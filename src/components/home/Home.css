@@ -1,0 +1,71 @@
+.container45 {
+    width: 1200px; /* Fixed width of 1200px */
+    height: 550px; /* Fixed height of 600px */
+    padding: 100px;
+    text-align: center;
+    margin: 80px auto 0; /* Top margin of 50px and centered horizontally */
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container33 {
+    max-width: 800px;
+    margin: 100px auto; /* Increase top margin to move the container down */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h11 {
+    color: #007bff;
+    font-size: 30px;
+}
+
+h22 {
+    color: #007bff;
+}
+
+h33 {
+    color: #FFFFFF;
+}
+
+code {
+    background-color: #f8f9fa;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.response-example {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    overflow-x: auto;
+}
+
+pre {
+    margin: 0;
+}
+
+pre code {
+    font-size: 90%;
+}
+
+/* Add the following rules to break text after 25 characters */
+.container45, .container33, h11, h22, h33, code, .response-example, pre {
+    word-wrap: break-word; /* or word-break: break-all; */
+    word-break: break-all;
+    word-break: break-word;
+    word-break: break-word;
+    word-wrap: break-word;
+}

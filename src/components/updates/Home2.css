@@ -1,0 +1,76 @@
+.updates-page-container {
+  margin: 20px;
+}
+
+.updates-page-add-update-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.updates-page-update-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.updates-page-update-container {
+  flex: 0 0 calc(25% - 20px); /* 25% width with 20px margin */
+  max-width: 300px; /* Set maximum width for the container */
+  max-height: 350px; /* Set maximum height for the container */
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  text-align: center; /* Center align content */
+  overflow-y: auto; /* Add vertical scroll bar if content exceeds the maximum height */
+}
+
+.updates-page-update-container h3 {
+  margin-top: 0;
+}
+
+.updates-page-update-container p.update-message {
+  margin: 10px 0; /* Add margin top and bottom for spacing */
+  word-wrap: break-word; /* Allow long words to wrap onto the next line */
+}
+
+.updates-page-update-container hr {
+  border: none;
+  border-top: 1px solid #ccc; /* Add visual divider */
+  margin: 10px 0; /* Adjust margin for spacing */
+  width: 100%; /* Adjust width of the divider */
+}
+
+.updates-page-modal {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.updates-page-modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%;
+}
+
+.updates-page-close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.updates-page-close:hover,
+.updates-page-close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}

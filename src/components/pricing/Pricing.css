@@ -1,0 +1,66 @@
+.container3 {
+    margin: 100px auto; /* Increase top margin to move the container down */
+    padding: 20px;
+    max-width: 800px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+h1 {
+    color: #007bff;
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+.pricing-container3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.plan {
+    width: 300px;
+    margin: 0 5px; /* Add margin for spacing */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+.plan h2 {
+    margin-bottom: 10px;
+}
+
+.plan p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.plan ul {
+    padding: 0;
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+.plan ul li {
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
